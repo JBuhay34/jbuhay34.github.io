@@ -91,10 +91,12 @@ li a:hover{
         bottom: 1%;
     }
     .Logo{
-        width: 2em;
-        height: 2em;
-        margin-left: 0em;
+        width: 1.5em;
+        height: 1.5em;
+        margin-left: .5em;
         margin-top: 1em;
+        margin-right: 2vh;
+
     }
     .Line{
         display: none;
@@ -112,6 +114,14 @@ li a:hover{
         flex-direction: column;
     }
     .Github{
-        margin-left: 4vh;
+        margin-left: 0vh;
+        margin-right: 0vh;
+        margin-right: 3vh;
+
+    }
+    .Linkedin{
+        margin-left: 0vh;
+        margin-right: 3vh;
+
     }
 }
