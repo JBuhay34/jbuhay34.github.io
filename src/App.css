@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Background{
+  background-color: #464646;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.b1{
+  background-image: url(./images/background.png);
+  /* Full height */
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.bhome2{
+  background-image: url(./images/backgroundlaptop.png);
+  /* Full height */
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.b2{
+  background-image: url(./images/backgroundlaptop2.png);
+  /* Full height */
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.b2projects2{
+  background-image: url(./images/backgroundlaptop2.png);
+  /* Full height */
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+
+h1{
+  margin-top: 2em;
+  font-size: 2em;
+  margin-left: 16%;
+}
+
+h2{
+  font-size: 1em;
+  margin-left: 16%;
+  padding-right: 10vh;
+  font-style: italic;
+  margin-top: 2em;
+}
+
+h3{
+  align-self: center;
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 8em;
+}
+
+.Arrow{
+  margin-top: .5em;
+  align-self: center;
+}
+
+.First{
+  margin-top: 30vh;
+}
+
+.Design1{
+  position: absolute;
+  height: 50vh;
+  bottom: 0%;
+  right: 0%;
+}
+
+.Design2{
+  position: absolute;
+  height: 10vh;
+  bottom: 0%;
+  right: 0%;
+}
+
+.MemoryLogo{
+  margin-left: 1em;
+  margin-top: 25vh;
+  width: 140px;
+  height: 140px;
+}
+
+.ScoodleLogo{
+  margin-left: 1em;
+  margin-top: 25vh;
+  width: 140px;
+  height: 140px;
+}
+.MemoryEg{
+  margin-left: 50vh;
+  margin-top: 0vh;
+  width: 150px;
+  height: 400px;
+}
+
+.ScoodleEg{
+  margin-left: 10vh;
+  margin-top: 0vh;
+  width: 200px;
+  height: 400px;
+}
+
+.Projects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

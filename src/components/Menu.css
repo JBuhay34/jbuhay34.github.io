@@ -1,0 +1,117 @@
+
+.Hamburger_icon{
+    display:none;
+    width: 2em;
+    height: 2em;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+li a:hover{
+    color: #72B0B4
+}
+
+
+.Logo_line{
+    position: fixed;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.Logologos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logologos2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.Github{
+    margin-top: 2vh;
+    margin-right: 4vh;
+}
+.Linkedin{
+    margin-top: 2vh;
+}
+
+.Logo{
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.Line{
+    margin-left:2em;
+    margin-top: 2em;
+    height: 90vh;
+}
+
+.Menu_right{
+    float: right;
+}
+
+.Menu_list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.Menu_list_item{
+    flex-direction: row;
+    margin: 2em;
+}
+
+.Menu_link{
+
+}
+@media screen and (max-width: 800px) {
+    li a {display: none;}
+    .Hamburger_icon{
+        position: fixed;
+        margin: 1%;
+        display: inline;
+        left: 1%;
+        bottom: 1%;
+    }
+    .Logo{
+        width: 2em;
+        height: 2em;
+        margin-left: 0em;
+        margin-top: 1em;
+    }
+    .Line{
+        display: none;
+    }
+    .Design1{
+        display: none;
+    }
+    .Design2{
+        display: none;
+    }
+    .ScoodleEg{
+        display: none;
+    }
+    .Logologos2{
+        flex-direction: column;
+    }
+    .Github{
+        margin-left: 4vh;
+    }
+}
