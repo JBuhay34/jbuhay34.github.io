@@ -44,11 +44,11 @@ li a:hover{
 }
 
 .Github{
-    margin-top: 2vh;
-    margin-right: 4vh;
+    margin-top: 1em;
+    margin-right: 1em;
 }
 .Linkedin{
-    margin-top: 2vh;
+    margin-top: 1em;
 }
 
 .Logo{
@@ -105,9 +105,6 @@ li a:hover{
         display: none;
     }
     .Design2{
-        display: none;
-    }
-    .ScoodleEg{
         display: none;
     }
     .Logologos2{

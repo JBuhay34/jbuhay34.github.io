@@ -47,13 +47,12 @@
 h1{
   margin-top: 2em;
   font-size: 2em;
-  margin-left: 16%;
+  margin-left: 30vh;
 }
 
 h2{
   font-size: 1em;
-  margin-left: 16%;
-  padding-right: 10vh;
+  margin-left: 30vh;
   font-style: italic;
   margin-top: 2em;
 }
@@ -62,8 +61,10 @@ h3{
   align-self: center;
   font-size: 1em;
   font-style: italic;
-  margin-top: 8em;
+  margin-top: 4em;
 }
+
+
 
 .Arrow{
   margin-top: .5em;
@@ -71,7 +72,7 @@ h3{
 }
 
 .First{
-  margin-top: 30vh;
+  margin-top: 25vh;
 }
 
 .Design1{
@@ -90,17 +91,17 @@ h3{
 
 .MemoryLogo{
   margin-left: 1em;
-  margin-top: 25vh;
   width: 140px;
   height: 140px;
 }
 
 .ScoodleLogo{
   margin-left: 1em;
-  margin-top: 25vh;
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
 }
+
+
 .MemoryEg{
   margin-left: 50vh;
   margin-top: 0vh;
@@ -110,7 +111,6 @@ h3{
 
 .ScoodleEg{
   margin-left: 10vh;
-  margin-top: 0vh;
   width: 200px;
   height: 400px;
 }
@@ -119,4 +119,37 @@ h3{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: flex-end;
 }
+
+@media screen and (max-width: 800px) {
+  .ArrowImage{
+    width: 40;
+    height: 40px;
+  }
+  h1{
+    font-size: 1em;
+    margin-left: 15vh;
+  }
+  h2{
+    font-size: .8em;
+    margin-left: 15vh;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .MemoryLogo{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .ScoodleLogo{
+    width: 60px;
+    height: 60px;
+  }
+  .ScoodleEg{
+    display: none;
+  }
+}
+

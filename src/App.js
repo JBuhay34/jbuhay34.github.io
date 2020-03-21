@@ -38,9 +38,7 @@ export class App extends Component {
             smooth={true}
             offset={0}
             duration= {500}>
-
-            <img src={arrow} alt="Arrow"/>
-
+            <img className="ArrowImage" src={arrow} alt="Arrow"/>
           </Link>
           <img src={design1} className="Design1" alt="Design1" />
           <img src={design2} className="Design2" alt="Design2" />
