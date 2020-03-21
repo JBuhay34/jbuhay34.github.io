@@ -81,9 +81,28 @@ li a:hover{
 .Menu_link{
 
 }
+
+.SideDrawerClosed{
+    display: none;
+}
+.Menu_list_side{
+    display: none;
+}
 @media screen and (max-width: 800px) {
-    li a {display: none;}
+    .Menu_list_side{
+        display: block;
+        margin-left: 20vh;
+    }
+    .SideDrawer{
+        position: fixed;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: #464646;
+    }
+    .Menu_list {display: none;}
     .Hamburger_icon{
+        z-index: 3;
         position: fixed;
         margin: 1%;
         display: inline;

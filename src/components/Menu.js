@@ -11,6 +11,19 @@ import './Menu.css';
 
 export class Menu extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {isMenuOpen: false};
+        this.openMenu = this.openMenu.bind(this);
+    }
+
+    openMenu(){
+        console.log("Clicked " + this.state.isMenuOpen);
+        this.setState(state => ({
+            isMenuOpen: !state.isMenuOpen
+        }
+        ));
+    };
 
     render() {
         let scrollToTop = () => {
@@ -30,10 +43,12 @@ export class Menu extends Component {
                             {link.label}
                     </Link>
 
-                    {/* <a className="Menu_link" href={link.link}>{link.label}</a> */}
                 </li>
             );
         });
+
+
+
 
         return (
             <div>
@@ -49,7 +64,13 @@ export class Menu extends Component {
                         <img src={line} className="Line" alt="Line" />
                     </div>
 
-                    <img src={menu} alt="menu" className="Hamburger_icon"/>
+                    <img src={menu} alt="menu" className="Hamburger_icon" onClick={this.openMenu}/>
+                    {this.state.isMenuOpen ? <div className="SideDrawer">                        
+                        <ul className="Menu_list_side">
+                            {linksMarkup}
+                        </ul>
+                    </div> : <div className="SideDrawerClosed"></div> }
+                    
                     <div className="Menu_right">
                         <ul className="Menu_list">
                             {linksMarkup}
