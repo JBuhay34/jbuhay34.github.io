@@ -151,12 +151,11 @@ h3{
     height: 60px;
   }
   .ScoodleEg{
-    display: none;
   }
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .Design1{
     position: absolute;
     height: 15vh;
@@ -169,5 +168,9 @@ h3{
     height: 5vh;
     bottom: 0%;
     right: 0%;
+  }
+  .ScoodleEg{
+    width: 150px;
+    height: 250px;
   }
 }
