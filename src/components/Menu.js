@@ -35,7 +35,7 @@ export class Menu extends Component {
                 <li className="Menu_list_item">
                     <Link activeClass="active"
                         to={'b' + (index + 1)}
-
+                        onClick={this.openMenu}
                         spy={true}
                         smooth={true}
                         offset={0}
