@@ -64,16 +64,15 @@ h3{
   margin-top: 4em;
 }
 
-
+.First{
+  margin-top: 20vh;
+}
 
 .Arrow{
   margin-top: .5em;
   align-self: center;
 }
 
-.First{
-  margin-top: 25vh;
-}
 
 .Design1{
   position: absolute;
@@ -90,12 +89,15 @@ h3{
 }
 
 .MemoryLogo{
+  margin-top: 20vh;
+
   margin-left: 1em;
   width: 140px;
   height: 140px;
 }
 
 .ScoodleLogo{
+  margin-top: 20vh;
   margin-left: 1em;
   width: 100px;
   height: 100px;
@@ -115,11 +117,11 @@ h3{
   height: 400px;
 }
 
-.Projects{
+.Projects{ 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -151,5 +153,21 @@ h3{
   .ScoodleEg{
     display: none;
   }
+
 }
 
+@media screen and (max-width: 1000px) {
+  .Design1{
+    position: absolute;
+    height: 15vh;
+    bottom: 0%;
+    right: 0%;
+  }
+
+  .Design2{
+    position: absolute;
+    height: 5vh;
+    bottom: 0%;
+    right: 0%;
+  }
+}
