@@ -92,9 +92,10 @@ li a:hover{
 @media screen and (max-width: 800px) {
     .Menu_list_side{
         display: block;
-        margin-left: 20vh;
+        margin-left: 20%;
     }
     .SideDrawer{
+        opacity: 0.98;
         position: fixed;
         display: block;
         height: 100%;
