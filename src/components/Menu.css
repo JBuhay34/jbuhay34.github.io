@@ -74,6 +74,7 @@ li a:hover{
 }
 
 .Menu_list_item{
+    cursor: default;
     flex-direction: row;
     margin: 2em;
 }
