@@ -47,13 +47,16 @@ export class App extends Component {
         <div className="bhome2">
           <h2 className="First">Went to school at University of California, Davis for a Computer Science Degree</h2>
           <h2>Have an A.S. Degree for Computer and Information Science from College of San Mateo</h2>
-          <h2>Created various amount of projects throughout my courses. And Also mostly creating other projects on my own time.</h2>
+          <h2>Created various amount of projects throughout my courses. Also creating other projects on my own time.</h2>
         </div>
 
         <div className="b2">
           <div className="Projects">
-            <h1 className="First">Memory</h1>
-            <img className="MemoryLogo"src={memorylogo} alt="Memory"/>
+            <a href="https://github.com/JBuhay34/NoteTakingApp">
+              <h1 className="First">Memory</h1>
+              </a>
+              <img className="MemoryLogo"src={memorylogo} alt="Memory"/>
+
           </div>
           <h2>Android App that creates notes for users.</h2>
           <h2>Coded in Java and XML Using Firebase for backend requirements. You can also login through your gmail account</h2>
@@ -66,8 +69,8 @@ export class App extends Component {
           </div>
             <div className="Projects">
             <h2>UI Design created using Figma</h2>
-            <img className="ScoodleEg" src={scoodleeg1} alt="ScoodleEg"/>
-            <img className="ScoodleEg" src={scoodleeg2} alt="ScoodleEg"/>
+            <img className="ScoodleEg1" src={scoodleeg1} alt="ScoodleEg"/>
+            <img className="ScoodleEg2" src={scoodleeg2} alt="ScoodleEg"/>
           </div>
 
         </div>

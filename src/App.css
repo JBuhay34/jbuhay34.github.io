@@ -1,5 +1,7 @@
 *{
   color: white;
+  text-decoration: none;
+
 }
 
 .Background{
@@ -111,7 +113,13 @@ h3{
   height: 400px;
 }
 
-.ScoodleEg{
+.ScoodleEg1{
+  margin-left: 10vh;
+  width: 200px;
+  height: 400px;
+}
+
+.ScoodleEg2{
   margin-left: 10vh;
   width: 200px;
   height: 400px;
@@ -140,20 +148,7 @@ h3{
 
 }
 
-@media screen and (max-width: 800px) {
-  .MemoryLogo{
-    width: 40px;
-    height: 40px;
-  }
-  
-  .ScoodleLogo{
-    width: 60px;
-    height: 60px;
-  }
-  .ScoodleEg{
-  }
 
-}
 
 @media screen and (max-width: 1100px) {
   .Design1{
@@ -169,8 +164,35 @@ h3{
     bottom: 0%;
     right: 0%;
   }
-  .ScoodleEg{
+  .ScoodleEg1{
     width: 150px;
     height: 250px;
   }
+  .ScoodleEg2{
+    width: 150px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .MemoryLogo{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .ScoodleLogo{
+    width: 60px;
+    height: 60px;
+  }
+
+  .ScoodleEg1{
+    margin-left: 15vh;
+    width: 100px;
+    height: 200px;
+  }
+  .ScoodleEg2{
+    width: 100px;
+    height: 200px;
+  }
+
 }
