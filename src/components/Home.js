@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Menu from "./Menu.js";
+
 import "./Home.css";
 
 import { Link, animateScroll as scroll } from "react-scroll";
