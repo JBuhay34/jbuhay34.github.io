@@ -3,7 +3,7 @@ import Menu from "./Menu.js";
 
 import "./Home.css";
 
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 import arrow from "../images/ArrowDesign.svg";
 import design1 from "../images/Design_1.svg";
 import design2 from "../images/Design_2.svg";

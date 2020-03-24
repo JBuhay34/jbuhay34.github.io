@@ -43,7 +43,6 @@ h3 {
 
 .MemoryLogo {
   margin-top: 20vh;
-
   margin-left: 1em;
   width: 140px;
   height: 140px;
@@ -56,18 +55,12 @@ h3 {
   height: 100px;
 }
 
-.MemoryEg {
-  margin-left: 10vh;
+.Eg1 {
   width: 200px;
   height: 400px;
 }
 
-.ScoodleEg1 {
-  width: 200px;
-  height: 400px;
-}
-
-.ScoodleEg2 {
+.Eg2 {
   margin-left: 10vh;
   width: 200px;
   height: 400px;
@@ -81,11 +74,11 @@ h3 {
 }
 
 @media screen and (max-width: 1100px) {
-  .ScoodleEg1 {
+  .Eg1 {
     width: 150px;
     height: 250px;
   }
-  .ScoodleEg2 {
+  .Eg2 {
     width: 150px;
     height: 250px;
   }
@@ -115,18 +108,12 @@ h3 {
     height: 100px;
   }
 
-  .MemoryEg {
+  .Eg1 {
     margin-left: 15vh;
     width: 100px;
     height: 200px;
   }
-
-  .ScoodleEg1 {
-    margin-left: 15vh;
-    width: 100px;
-    height: 200px;
-  }
-  .ScoodleEg2 {
+  .Eg2 {
     width: 100px;
     height: 200px;
   }
