@@ -13,7 +13,7 @@ export class Home extends Component {
     let links = [
       { label: "Home", link: "#home" },
       { label: "Projects", link: "#projects" },
-      { label: "Blog", link: "#blog" },
+      // { label: "Blog", link: "#blog" },
       { label: "Contact", link: "#contact" }
     ];
 
