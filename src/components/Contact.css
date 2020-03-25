@@ -12,12 +12,15 @@ form {
     margin: auto;
 }
 
+label {
+    margin-bottom: 4px;
+}
+
 .form-control{
     width: 50vh;
     padding: 6px;
     border-style: none;
     border-color: #4D6365;
-    margin-left: 1em;
     border-radius: 10px;
     background-color: #4D6365;
 }
@@ -26,12 +29,11 @@ form {
     border-color: #4D6365;
     margin-bottom: 1em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .SubmitButton{
     font-weight: bold;
-    margin: 2em;
     padding: 16px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 10px;
@@ -46,7 +48,7 @@ form {
 
 
     .form-control{
-        width: 4em;
+        width: 14em;
         padding: 6px;
 
     }
