@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import Home from "./components/Home.js";
 import Projects from "./components/Projects.js";
+import Contact from "./components/Contact.js";
+
 
 
 export class App extends Component {
@@ -10,6 +12,7 @@ export class App extends Component {
       <div className="Background">
         <Home />
         <Projects />
+        <Contact/>
       </div>
     );
   }

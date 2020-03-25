@@ -1,0 +1,51 @@
+.b3 {
+    background-image: url(../images/background.png);
+    /* Full height */
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+form {
+    margin: auto;
+}
+
+.form-control{
+    width: 50vh;
+    padding: 6px;
+    border-style: none;
+    border-color: #4D6365;
+    margin-left: 1em;
+    border-radius: 10px;
+    background-color: #4D6365;
+}
+
+.form-group{
+    border-color: #4D6365;
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+.SubmitButton{
+    font-weight: bold;
+    margin: 2em;
+    padding: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    border-color: #4D6365;
+    background-color: #4D6365;
+}
+
+@media screen and (max-width: 800px) {
+    form {
+        margin: 0vh;
+        width: 50vh;
+    }
+
+    .form-control{
+        width: 10vh;
+    }
+}
