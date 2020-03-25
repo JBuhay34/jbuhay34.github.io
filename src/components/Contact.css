@@ -24,7 +24,7 @@ form {
 
 .form-group{
     border-color: #4D6365;
-    margin: 2em;
+    margin-bottom: 1em;
     display: flex;
     flex-direction: row;
 }
@@ -41,11 +41,13 @@ form {
 
 @media screen and (max-width: 800px) {
     form {
-        margin: 0vh;
-        width: 50vh;
+        margin-left: 15vh;
     }
 
+
     .form-control{
-        width: 10vh;
+        width: 4em;
+        padding: 6px;
+
     }
 }
