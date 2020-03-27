@@ -19,6 +19,7 @@
 
 .b1 {
   background-image: url(../images/background.png);
+  background-attachment: fixed;
   /* Full height */
   height: 100vh;
   background-size: cover;
@@ -28,6 +29,7 @@
 
 .bhome2 {
   background-image: url(../images/backgroundlaptop.png);
+  background-attachment: fixed;
   /* Full height */
   height: 100vh;
   background-size: cover;

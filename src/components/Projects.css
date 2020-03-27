@@ -1,5 +1,6 @@
 .b2 {
   background-image: url(../images/backgroundlaptop2.png);
+  background-attachment: fixed;
   /* Full height */
   height: 100vh;
   background-size: cover;
@@ -9,6 +10,7 @@
 
 .b2projects2 {
   background-image: url(../images/backgroundlaptop2.png);
+  background-attachment: fixed;
   /* Full height */
   height: 100vh;
   background-size: cover;
