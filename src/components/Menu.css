@@ -96,6 +96,7 @@ li a:hover{
     }
     .SideDrawer{
         opacity: 0.98;
+        z-index: 2;
         position: fixed;
         display: block;
         height: 100%;
@@ -104,7 +105,7 @@ li a:hover{
     }
     .Menu_list {display: none;}
     .Hamburger_icon{
-        z-index: 3;
+        z-index: 4;
         position: fixed;
         margin: 1%;
         display: inline;

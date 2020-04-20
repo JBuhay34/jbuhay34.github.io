@@ -22,7 +22,7 @@
   left: 70%;
   top: 25%;
   width: 20%;
-  z-index: 4;
+  z-index: 1;
 }
 
 
@@ -76,14 +76,16 @@
 }
 
 
+
+
 @media screen and (max-width: 1100px) {
   .bhome2 {
     flex-direction: column;
   }
   #justin{
-    width: 30%;
-    left: 35%;
-    top: 60%;
+    width: 20%;
+    left: 75%;
+    top: 50%;
   }
   .textbhome2{
     flex-direction: column;
@@ -119,5 +121,21 @@
   .ArrowImage {
     width: 40;
     height: 40px;
+  }
+  #justin{
+    width: 25%;
+    left: 37%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ArrowImage {
+    width: 40;
+    height: 40px;
+  }
+  #justin{
+    width: 40%;
+    left: 30%;
+    top: 55%;
   }
 }
