@@ -35,7 +35,7 @@ export class Home extends Component {
             California.
           </h2>
           <img src={justin} id="justin" alt="justin" />
-          <h3>Scroll Down</h3>
+          <h3>See My Work</h3>
           <Link
             className="Arrow"
             activeClass="active"

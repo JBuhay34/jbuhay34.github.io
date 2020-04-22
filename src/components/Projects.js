@@ -10,6 +10,7 @@ import espneg1 from "../images/espneg1.png";
 import chateg1 from "../images/chateg1.jpg";
 import chateg2 from "../images/chateg2.jpg";
 import foodsuggeg1 from "../images/foodsuggeg1.png";
+import covidtracker1 from "../images/covidtracker.png";
 
 export class Projects extends Component {
   render() {
@@ -36,7 +37,17 @@ export class Projects extends Component {
 
         <div className="b2projects2">
           <div className="Projects">
-            <h1 className="First">Buhay Chat</h1>
+          <a href="https://covid-tracker-justin.netlify.app/"><h1 className="First">COVID-19 Tracker</h1></a>
+          </div>
+          <div className="Projects">
+            <h2>I made this app with React. I learned how to use React hooks in this project and being able to fetch data from APIs using Axios</h2>
+            <img className="CovidTrackerImage" src={covidtracker1} alt="ChatEg" />
+          </div>
+        </div>
+
+        <div className="b2projects3">
+          <div className="Projects">
+            <h1 >Buhay Chat</h1>
           </div>
           <div className="Projects">
             <h2>Chat Application made in Flutter and Firebase</h2>
@@ -45,7 +56,7 @@ export class Projects extends Component {
           </div>
         </div>
 
-        <div className="b2projects2">
+        <div className="b2projects3">
           <div className="Projects">
             <h1 className="First">Scoodle</h1>
             <img className="ScoodleLogo" src={scoodlelogo} alt="Scoodle" />
@@ -67,7 +78,7 @@ export class Projects extends Component {
           </div>
         </div>
 
-        <div className="b2projects2">
+        <div className="b2projects3">
           <div className="Projects">
             <h1 className="First">Food Suggestor</h1>
           </div>
@@ -78,6 +89,8 @@ export class Projects extends Component {
             <img className="Eg1" src={foodsuggeg1} alt="FoodSuggestorEg" />
           </div>
         </div>
+
+        
       </div>
     );
   }
